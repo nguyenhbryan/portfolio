@@ -19,7 +19,7 @@ export default function ProjectCard({
         <img src={image} alt={title} className="w-full h-full object-contain" />
       </div>
 
-      <div className="p-4">
+      <div className="flex flex-col justify-between p-4">
         <h3 className="text-xl text-slate-100 font-semibold mb-2">{title}</h3>
 
         <p className="text-slate-100 text-sm mb-4">{description}</p>

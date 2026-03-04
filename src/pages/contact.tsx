@@ -3,7 +3,7 @@ export default function Contact() {
     <>
       <section className="flex flex-col w-full min-h-[calc(100dvh-4rem)]">
         <h2 className="text-4xl sm:text-5xl">Contact Information</h2>
-        <div className="flex flex-col items-center my-5">
+        <div className="flex flex-col items-center my-5 text-xl">
           <div className="info-item">
             <p>
               <strong>Email:</strong> nguyenbryan18@vt.edu

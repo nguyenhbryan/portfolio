@@ -13,7 +13,7 @@ export default function ProjectsPage() {
         />
         <ProjectCard
           title="My Portfolio"
-          description="It's this website! It is containerized with Docker and runs on my home server. Check out the source code."
+          description="It's this website! It was built with React, Vite, and TailwindCSS. It is containerized with Docker and runs on my home server. Check out the source code."
           image="/PortfolioPicTEMP.png"
           sourceUrl="https://github.com/yourrepo"
         />
