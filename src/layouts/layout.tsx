@@ -10,7 +10,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <div className="min-h-screen flex flex-col bg-linear-90 from-sky-800 to-indigo-900 text-slate-200">
       <Navbar />
 
-      <main className="mx-64 max-w-5xl px-6 py-10 flex-1">{children}</main>
+      <main className="w-full max-w-5xl mx-auto px-4 sm:px-6 pt-10 pb-0 flex-1">
+        {children}
+      </main>
 
       <footer className="border-t border-white/10"></footer>
     </div>

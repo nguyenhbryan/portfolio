@@ -3,8 +3,8 @@ import ProjectCard from "../components/ProjectCard";
 export default function ProjectsPage() {
   return (
     <section className="font-sans h-max min-h-screen">
-      <h1 className="text-5xl text-slate-100 mb-4">Projects</h1>
-      <div className="flex flex-row">
+      <h1 className="text-4xl sm:text-5xl text-slate-100 mb-4">Projects</h1>
+      <div className="flex flex-col lg:flex-row">
         <ProjectCard
           title="Resy Instant Booking Site"
           description="This website utilizes Resy API endpoints to effortlessly find and book hard-to-get reservations."

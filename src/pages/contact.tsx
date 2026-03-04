@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
     <>
-      <section className="flex flex-col w-full min-h-screen">
-        <h2 className="text-5xl">Contact Information</h2>
+      <section className="flex flex-col w-full min-h-[calc(100dvh-4rem)]">
+        <h2 className="text-4xl sm:text-5xl">Contact Information</h2>
         <div className="flex flex-col items-center my-5">
           <div className="info-item">
             <p>
@@ -26,7 +26,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="bg-white border border-slate-500 p-1 rounded-md hover:bg-slate-300 transition"
             >
-              <img src="/Github.png" className="size-14"></img>
+              <img src="/Github.png" className="size-10 sm:size-14"></img>
             </a>
             <a
               href="https://www.linkedin.com/in/bryan-nguyen-h"
@@ -34,7 +34,10 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="bg-white border border-slate-500 p-1 rounded-md hover:bg-slate-300 transition"
             >
-              <img src="/Linkedin.png" className="h-14 w-16"></img>
+              <img
+                src="/Linkedin.png"
+                className="h-10 w-12 sm:h-14 sm:w-16"
+              ></img>
             </a>
           </div>
         </div>

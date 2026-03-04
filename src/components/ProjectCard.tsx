@@ -14,7 +14,7 @@ export default function ProjectCard({
   liveUrl,
 }: CardProps) {
   return (
-    <div className="bg-slate-900 rounded-2xl shadow-md overflow-hidden hover:shadow-lg w-sm transition m-3">
+    <div className="bg-slate-900 rounded-2xl shadow-md overflow-hidden hover:shadow-lg w-full max-w-sm transition m-3">
       <div className="w-full aspect-video bg-slate-800">
         <img src={image} alt={title} className="w-full h-full object-contain" />
       </div>
