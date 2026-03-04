@@ -15,7 +15,9 @@ export default function ProjectCard({
 }: CardProps) {
   return (
     <div className="bg-slate-900 rounded-2xl shadow-md overflow-hidden hover:shadow-lg w-sm transition m-3">
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+      <div className="w-full aspect-video bg-slate-800">
+        <img src={image} alt={title} className="w-full h-full object-contain" />
+      </div>
 
       <div className="p-4">
         <h3 className="text-xl text-slate-100 font-semibold mb-2">{title}</h3>

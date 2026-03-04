@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-
 export default function Navbar() {
   return (
     <header
@@ -12,15 +10,15 @@ export default function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-6 py-4 justify-center flex">
         <div>
-          <NavLink to="/" className="px-3 hover:text-white">
+          <a href="#" className="px-3 hover:text-white">
             Home
-          </NavLink>
-          <NavLink to="/projects" className="px-3 hover:text-white">
+          </a>
+          <a href="#projects" className="px-3 hover:text-white">
             Projects
-          </NavLink>
-          <NavLink to="/contact" className="px-3 hover:text-white">
+          </a>
+          <a href="#contact" className="px-3 hover:text-white">
             Contact
-          </NavLink>
+          </a>
         </div>
       </nav>
     </header>
