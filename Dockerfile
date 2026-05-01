@@ -7,9 +7,9 @@ COPY . .
 RUN npm run build
 
 # Stage 2 - Serve
-FROM nginx:alpine
-RUN rm -rf /usr/share/nginx/html/*
-COPY --from=builder /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+FROM node:22-alpine
+RUN npm install -g serve
+COPY --from=builder /app/dist /app/dist
+WORKDIR /app
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["serve", "-s", "dist", "-l", "80"]
