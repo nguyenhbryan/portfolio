@@ -13,6 +13,9 @@ export default function Navbar() {
           <a href="#" className="px-3 hover:text-white">
             Home
           </a>
+          <a href="#experience" className="px-3 hover:text-white">
+            Experience
+          </a>
           <a href="#projects" className="px-3 hover:text-white">
             Projects
           </a>
