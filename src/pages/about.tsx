@@ -14,8 +14,15 @@ export default function About() {
           PostgreSQL.{" "}
         </p>
         <a
+          href="/Bryan%20Nguyen%20Resume.pdf"
+          download
+          className="text-slate-300 hover:text-white underline py-4"
+        >
+          Download my CV
+        </a>
+        <a
           href="#projects"
-          className="py-4 text-slate-300 underline hover:text-white"
+          className="text-slate-300 underline hover:text-white"
         >
           View my projects here!
         </a>
