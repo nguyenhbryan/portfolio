@@ -8,8 +8,8 @@ export default function ProjectsPage() {
         <ProjectCard
           title="Resy Instant Booking Site"
           description="This website utilizes Resy API endpoints to effortlessly find and book hard-to-get reservations."
-          image="/bigkhoa.png"
-          sourceUrl="https://github.com/nguyenhbryan/resy-booking-site"
+          image="/ResyBot.png"
+          sourceUrl="https://github.com/nguyenhbryan/resy-bot-standalone"
         />
         <ProjectCard
           title="My Portfolio"
