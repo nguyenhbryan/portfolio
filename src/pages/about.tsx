@@ -8,17 +8,18 @@ export default function About() {
         <p className="text-2xl sm:text-3xl pb-2">I'm Bryan Nguyen.</p>
         <p className="max-w-md">
           I'm an undergraduate at Virginia Tech, majoring in Computer
-          Engineering. I plan to graduate Spring 2028. I am focused on creating
-          apps that solve problems. I am quick to adapt, constantly learning new
-          things. I've primarily built projects with Next.js and
-          PostgreSQL.{" "}
+          Engineering. I will be graduating Spring of 2028. I like building
+          practical full-stack tools, automation, and infrastructure that turn
+          messy workflows into reliable software. My recent work has focused on
+          API-driven apps, deployment pipelines, and projects built with
+          Next.js, React, PostgreSQL, Docker, and Bun.
         </p>
         <a
           href="/Bryan%20Nguyen%20Resume.pdf"
           download
           className="text-slate-300 hover:text-white underline py-4"
         >
-          Download my CV
+          Download my resume
         </a>
         <a
           href="#projects"
@@ -30,6 +31,7 @@ export default function About() {
       <div className="w-full md:w-auto flex justify-center md:justify-end">
         <img
           src="/bryan.PNG"
+          alt="Bryan Nguyen"
           className="w-full max-w-xs sm:max-w-sm md:max-w-sm h-auto max-h-80 sm:max-h-96 md:max-h-[28rem] object-contain rounded-xl"
         />
       </div>

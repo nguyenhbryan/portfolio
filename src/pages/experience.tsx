@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <>
       <div className="flex flex-col min-h-[calc(100dvh-4rem)]">
-        <h1 className="text-5xl text-bold">Experience</h1>
+        <h1 className="text-5xl font-bold">Experience</h1>
         <div className="flex justify-between mt-4">
           <div className="flex items-end">
             <h2 className="text-3xl italic">SuperDARN</h2>
@@ -18,15 +18,21 @@ export default function Experience() {
         </div>
         <h2 className="text-2xl my-2">Software Development Intern</h2>
         <div className="flex flex-col items-center mt-2">
-          <img src="Superdarn.png" className="w-md h-md rounded-xl"></img>
+          <img
+            src="Superdarn.png"
+            alt="SuperDARN website preview"
+            className="w-md h-md rounded-xl"
+          ></img>
           <ul className="my-2 text-lg">
             <li>
-              Maintained the SuperDARN website, adding features and improving
-              usability
+              Maintained and improved the SuperDARN website by shipping
+              user-facing updates, fixing usability issues, and supporting
+              researchers who rely on the site.
             </li>
             <li>
-              Created a Web API to download data, with authentication and data
-              usage logging.
+              Created an authenticated Web API for data downloads, including
+              request logging to track usage and support safer access to
+              research data.
             </li>
           </ul>
         </div>

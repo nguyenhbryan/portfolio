@@ -7,15 +7,15 @@ export default function ProjectsPage() {
       <div className="flex flex-col lg:flex-row">
         <ProjectCard
           title="Resy Instant Booking Site"
-          description="This website utilizes Resy API endpoints to effortlessly find and book hard-to-get reservations."
+          description="Built a reservation automation tool around Resy API endpoints to search availability, reduce manual refreshes, and streamline booking hard-to-get restaurant reservations."
           image="/ResyBot.png"
           sourceUrl="https://github.com/nguyenhbryan/resy-bot-standalone"
         />
         <ProjectCard
           title="My Portfolio"
-          description="It's this website! It was built with React, Vite, and TailwindCSS. It is containerized with Docker and runs on my homelab. Check out the source code."
+          description="Designed and deployed this React, Vite, and TailwindCSS portfolio with a Bun-based Docker build, Docker Compose support, and a GHCR publishing workflow for homelab deployment."
           image="/PortfolioPicTEMP.png"
-          sourceUrl="https://github.com/yourrepo"
+          sourceUrl="https://github.com/nguyenhbryan/portfolio"
         />
       </div>
     </section>

@@ -11,11 +11,6 @@ export default function Contact() {
           </div>
           <div className="info-item">
             <p>
-              <strong>Phone:</strong> (571) 306-8196
-            </p>
-          </div>
-          <div className="info-item">
-            <p>
               <strong>Location:</strong> Springfield, Virginia
             </p>
           </div>
@@ -26,7 +21,11 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="bg-white border border-slate-500 p-1 rounded-md hover:bg-slate-300 transition"
             >
-              <img src="/Github.png" className="size-10 sm:size-14"></img>
+              <img
+                src="/Github.png"
+                alt="GitHub profile"
+                className="size-10 sm:size-14"
+              ></img>
             </a>
             <a
               href="https://www.linkedin.com/in/bryan-nguyen-h"
@@ -36,6 +35,7 @@ export default function Contact() {
             >
               <img
                 src="/Linkedin.png"
+                alt="LinkedIn profile"
                 className="h-10 w-12 sm:h-14 sm:w-16"
               ></img>
             </a>

@@ -27,7 +27,7 @@ export default function ProjectCard({
         <div className="flex gap-3">
           <a
             href={sourceUrl}
-            className="text-slate-100 bg-slate-600 border-2 border-gray-500 p-1 rounded-md hover:bg-slate-400 transistion duration-150"
+            className="text-slate-100 bg-slate-600 border-2 border-gray-500 p-1 rounded-md hover:bg-slate-400 transition duration-150"
             target="_blank"
             rel="noopener noreferrer"
           >
