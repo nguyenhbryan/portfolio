@@ -1,47 +1,41 @@
 export default function Contact() {
   return (
-    <>
-      <section className="flex flex-col w-full min-h-[calc(100dvh-4rem)]">
-        <h2 className="text-4xl sm:text-5xl">Contact Information</h2>
-        <div className="flex flex-col items-center my-5 text-xl">
-          <div className="info-item">
-            <p>
-              <strong>Email:</strong> nguyenbryan18@vt.edu
-            </p>
-          </div>
-          <div className="info-item">
-            <p>
-              <strong>Location:</strong> Springfield, Virginia
-            </p>
-          </div>
-          <div className="flex gap-3 mt-6">
-            <a
-              href="https://github.com/nguyenhbryan"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white border border-slate-500 p-1 rounded-md hover:bg-slate-300 transition"
-            >
-              <img
-                src="/Github.png"
-                alt="GitHub profile"
-                className="size-10 sm:size-14"
-              ></img>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/bryan-nguyen-h"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white border border-slate-500 p-1 rounded-md hover:bg-slate-300 transition"
-            >
-              <img
-                src="/Linkedin.png"
-                alt="LinkedIn profile"
-                className="h-10 w-12 sm:h-14 sm:w-16"
-              ></img>
-            </a>
-          </div>
+    <div className="rounded-3xl border border-cyan-300/20 bg-gradient-to-br from-cyan-300/10 to-indigo-400/10 p-8 text-center sm:p-14">
+      <p className="font-mono text-sm uppercase tracking-[0.2em] text-cyan-300">
+        Get in touch
+      </p>
+      <h2 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+        Let's build something useful.
+      </h2>
+      <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">
+        I'm interested in software engineering opportunities where I can work
+        across product, APIs, and infrastructure. I'm based in Springfield,
+        Virginia.
+      </p>
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          href="mailto:nguyenbryan18@vt.edu"
+          className="rounded-lg bg-cyan-300 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-200"
+        >
+          Email me
+        </a>
+        <a
+          href="https://www.linkedin.com/in/bryan-nguyen-h"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-lg border border-white/20 px-5 py-3 font-semibold text-white transition hover:bg-white/10"
+        >
+          LinkedIn ↗
+        </a>
+        <a
+          href="https://github.com/nguyenhbryan"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-lg border border-white/20 px-5 py-3 font-semibold text-white transition hover:bg-white/10"
+        >
+          GitHub ↗
+        </a>
         </div>
-      </section>
-    </>
+    </div>
   );
 }

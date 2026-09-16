@@ -2,6 +2,33 @@
 @import "tailwindcss";
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  background: #020617;
 }
 
+body {
+  min-width: 320px;
+}
+
+:focus-visible {
+  outline: 3px solid #67e8f9;
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #67e8f9;
+  color: #082f49;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
